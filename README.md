@@ -56,6 +56,7 @@ To maximize points, we must keep **both parameter counts and intermediate tensor
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **001** | Kronecker Product Fractal Expansion | 26 | 10,800 | **15.710** | [task001_explanation.md](explanations/task001_explanation.md) |
 | **002** | Enclosed Region Filling (Flood Fill) | 23 | 312,272 | **12.348** | [task002_explanation.md](explanations/task002_explanation.md) |
+| **003** | Vertical Periodic Pattern Extension | 47 | 18,376 | **15.179** | [task003_explanation.md](explanations/task003_explanation.md) |
 
 ---
 
