@@ -11,4 +11,3 @@ __pycache__/
 tasks_data/task[0-9][0-9][0-9].json
 
 # Local scratch scripts
-scratch/
