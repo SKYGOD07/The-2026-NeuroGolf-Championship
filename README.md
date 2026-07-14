@@ -58,6 +58,7 @@ To maximize points, we must keep **both parameter counts and intermediate tensor
 | **002** | Enclosed Region Filling (Flood Fill) | 23 | 312,272 | **12.348** | [task002_explanation.md](explanations/task002_explanation.md) |
 | **003** | Vertical Periodic Pattern Extension | 47 | 18,376 | **15.179** | [task003_explanation.md](explanations/task003_explanation.md) |
 | **004** | Sheared Shape Verticalization | 86 | 309,120 | **11.928** | [task004_explanation.md](explanations/task004_explanation.md) |
+| **005** | Pattern Completion & Replication | 225 | 1,545,461 | **10.749** | [task005_explanation.md](explanations/task005_explanation.md) |
 
 ---
 
