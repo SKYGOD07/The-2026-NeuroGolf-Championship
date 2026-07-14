@@ -35,7 +35,7 @@ To maximize points, we must keep **both parameter counts and intermediate tensor
 ## 📂 Repository Structure
 
 ```
-├── .gitignore               # Excludes large local datasets, venv, and profiling trace files
+├── .gitignore               # Excludes local datasets, venv, and profiling trace files
 ├── README.md                # This file (project overview and rules)
 ├── neurogolf_utils/         # Official NeuroGolf tournament utilities (verification & scoring)
 ├── task_scripts/            # Python scripts building the ONNX model for each task
@@ -44,8 +44,8 @@ To maximize points, we must keep **both parameter counts and intermediate tensor
 ├── explanations/            # Detailed visual and architectural explanations of the networks
 │   ├── task001_explanation.md
 │   └── task002_explanation.md
-├── task001.onnx             # Generated ONNX model for Task 1
-└── task002.onnx             # Generated ONNX model for Task 2
+├── onnx_models/             # Generated ONNX models (e.g. task001.onnx, task002.onnx)
+└── tasks_data/              # Local JSON dataset files (e.g. task001.json, task002.json) [Git Ignored]
 ```
 
 ---

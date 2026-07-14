@@ -112,6 +112,16 @@ if __name__ == "__main__":
     task_num = 2
     model = build_model(num_steps=25)
     # Set correct neurogolf dir for local execution
-    utils._NEUROGOLF_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")) + "/"
+    utils._NEUROGOLF_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "tasks_data")) + "/"
     examples = utils.load_examples(task_num)
     utils.verify_network(model, task_num, examples)
+    
+    # Move the generated onnx file to the onnx_models folder
+    src = f"task{task_num:03d}.onnx"
+    dst = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "onnx_models", src))
+    if os.path.exists(src):
+        if os.path.exists(dst):
+            os.remove(dst)
+        os.rename(src, dst)
+        print(f"Moved {src} to onnx_models/")
+
